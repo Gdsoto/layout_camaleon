@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+:root {
+  --verdeoscuro: #12251a;
+  --verdeclaro: #3a6333;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0px;
+  background-color: var(--verdeoscuro);
+}
+
+.navbar__content {
+  padding: 0;
+}
+
+.navbar__list {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar__item {
+  display: block;
+  color: white;
+  padding: 1em 2em;
+  transition: 0.3s ease all;
+}
+
+.navbar__item:hover {
+  background-color: var(--verdeclaro);
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__ingreso {
+  padding: 0px;
+}
+.navbar__button {
+  display: block;
+  background-color: var(--verdeclaro);
+  color: white;
+  padding: 1em 2em;
+  transition: 0.3s ease all;
+}
+
+.navbar__button:hover {
+  background-color: gray;
+  text-decoration: none;
+  color: var(--verdeoscuro);
+}
+
+.btn-success {
+  background-color: var(--verdeoscuro);
+  border: none;
+  border-radius: 0px;
+  padding: 8px 40px;
+  transition: 0.3s ease all;
+}
+
+.btn-success:hover {
+  background-color: var(--verdeclaro);
+}
+
+.jumbotron {
+  background: url(../img/jumbotron.jpg);
+  background-position: 12%;
+  border-radius: 0px;
+  margin-bottom: 5%;
+}
+
+.jumbotron p {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.list-group-item-action {
+  transition: 0.3s ease all;
+}
+.list-group-item-action:hover {
+  color: white;
+  background-color: var(--verdeoscuro);
+}
+
+.list-group-item:first-child {
+  border-radius: 0px;
+}
+
+.list-group-item:last-child {
+  border-radius: 0px;
+}
+
+.categorias__tittle {
+  font-weight: 200;
+  font-size: 2em;
+}
+
+.categorias__busc {
+  border: none;
+  color: gray;
+}
+
+.categorias__busc:hover {
+  background-color: var(--verdeclaro);
+}
+.categorias__input {
+  border: none;
+}
+
+.productos h5 {
+  font-weight: 400;
+}
+
+.productos p {
+  font-weight: 400;
+  font-family: 'Titillium Web', sans-serif;
+}
+/*background-color: #f5f3f0;*/
